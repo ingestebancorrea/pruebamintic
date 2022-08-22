@@ -8,7 +8,7 @@
   width: 100%;
   justify-content: center;
   text-align: center;
-  background-color: #008cba;
+  background-color: #4c44af;
   line-height: 40px; /*Aumentar tamaño*/
 }
 
@@ -84,13 +84,13 @@
   border-radius: 28px;
   padding: 19px;
   text-decoration: none;
-  color: #0099cc; /* Color del texo */
-  border: 2px solid #0099cc; /* Grosor del borde, estilo de línea y color */
+  color: #4c44af; /* Color del texo */
+  border: 2px solid #4c44af; /* Grosor del borde, estilo de línea y color */
   border-radius: 6px; /* Añadir esquinas curvadas */
 }
 
 .btndcv:hover {
-  background-color: #008cba;
+  background-color: #4c44af;
   color: white;
 }
 
@@ -158,9 +158,9 @@
   float: left;
   background: linear-gradient(
     90deg,
-    #008cba,
-    #008cba,
-    #008cba
+    #4c44af,
+    #4c44af,
+    #4c44af
   ); /*Llenado de linea*/
 }
 
@@ -411,7 +411,7 @@
   text-align: center;
   justify-content: center;
   font-family: Arial;
-  background-color: #008cba;
+  background-color: #4c44af;
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
