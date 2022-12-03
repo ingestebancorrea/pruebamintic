@@ -181,11 +181,31 @@
 }
 
 .skill_php {
-  width: 60%;
+  width: 80%;
 }
 
 .skill_js {
-  width: 40%;
+  width: 80%;
+}
+
+.skill_vue {
+  width: 80%;
+}
+
+.skill_angular {
+  width: 80%;
+}
+
+.skill_django {
+  width: 80%;
+}
+
+.skill_flask {
+  width: 80%;
+}
+
+.skill_jsb {
+  width: 70%;
 }
 
 .redes {
@@ -323,6 +343,45 @@
 }
 
 .slidert2 input[type="radio"]:checked ~ img {
+  opacity: 1;
+}
+
+/*Slidert3*/
+.slidert3 {
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  list-style: none;
+  padding: 0;
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.slidert3 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.slidert3 input[type="radio"] {
+  position: relative;
+  z-index: 50;
+  margin: 10px;
+
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+}
+
+.slidert3 input[type="radio"]:checked ~ img {
   opacity: 1;
 }
 
